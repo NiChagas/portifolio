@@ -1,0 +1,79 @@
+﻿/* inserindo um seletor reset para remover as margens e paddings */
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+body {
+	color: black;
+	background-color: #cecece;
+}
+
+#principal{
+	max-width: 1000px;
+	margin: 0 auto;
+}	
+
+#cabecalho {
+	width: 100%;
+	height: 10vh;
+	/*background-color: yellow;*/
+}	
+#conteudo {
+	width: 100%;
+	height: 80vh;
+	/*background-color: blue;*/
+}
+#rodape {
+	width: 100%;
+	height: 10vh;
+	/*background-color: green;*/
+	text-align: center;
+	clear: both;
+}	
+
+.foto {
+	width: 100%;	
+}	
+.caixinha {
+	/*background-color: red;*/
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+.meio {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}	
+
+
+.cor  {
+	color: purple;
+}	
+.fundo {
+	background-color: #ff0;	
+}	
+.caixola {
+	/*background-color: red;*/
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+/* inserir uma regra para criar um espaço entre as duas imagens */
+.imgdireita {
+	margin-left: 10%;
+}	
+.lista {
+	margin-left: 50px;	
+}	
+.quebra {
+	clear: both;
+}	
+
+
+
+	
